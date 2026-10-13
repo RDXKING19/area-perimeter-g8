@@ -1,0 +1,28 @@
+// Auto-generated audio map: text -> static asset URL
+export const audioMap = {
+  "Hafiz and Mei Ling received exactly sixty metres of fencing to build a new lawn. Hafiz sketches a long twenty-five metres by five metres plot, while Mei Ling proposes a fifteen metres by fifteen metres square.": "/assets/audio/audio_hafiz_and_mei_ling_received_exactly_sixty_metres_0.mp3",
+  "Both plots use all sixty metres of fence. But do they hold the same amount of grass?": "/assets/audio/audio_both_plots_use_all_sixty_metres_of_fence_but_do__1.mp3",
+  "Welcome to Sunrise Park Studio! Junior planners Hafiz and Mei Ling received exactly sixty metres of fencing to build a new community lawn. Hafiz sketches a long twenty-five metres by five metres plot, while Mei Ling proposes a fifteen metres by fifteen metres square.": "/assets/audio/audio_welcome_to_sunrise_park_studio_junior_planners_h_2.mp3",
+  "Before ordering turf or paving, remember: perimeter and area measure two entirely different things!": "/assets/audio/audio_before_ordering_turf_or_paving_remember_perimete_3.mp3",
+  "Perimeter is the distance around a shape. Area is the flat surface space inside. Hafiz’s plot holds twenty-five times five equals one hundred and twenty-five square metres, while Mei Ling’s square encloses fifteen times fifteen equals two hundred and twenty-five square metres!": "/assets/audio/audio_perimeter_is_the_distance_around_a_shape_area_is_4.mp3",
+  "Same sixty metres fence, yet the square holds one hundred extra square metres! Remember: one square metre equals ten thousand square centimetres.": "/assets/audio/audio_same_sixty_metres_fence_yet_the_square_holds_one_5.mp3",
+  "Perimeter is measured in metres, but area is measured in square metres. Never mix them up!": "/assets/audio/audio_perimeter_is_measured_in_metres_but_area_is_meas_6.mp3",
+  "For sloped terraces and triangular beds, perpendicular height is key! Splitting a rectangle along its diagonal proves a triangle’s area is one half times base times perpendicular height.": "/assets/audio/audio_for_sloped_terraces_and_triangular_beds_perpendi_7.mp3",
+  "For a parallelogram, area is base times perpendicular height. Never multiply by the slanted edge!": "/assets/audio/audio_for_a_parallelogram_area_is_base_times_perpendic_8.mp3",
+  "Height must always meet the base at a right angle of ninety degrees, not slanted!": "/assets/audio/audio_height_must_always_meet_the_base_at_a_right_angl_9.mp3",
+  "At the central pond, circumference is two times pi times radius, and area is pi times radius squared. When fencing a semicircle or sector, always add the straight diameter or radius edges to the curved arc!": "/assets/audio/audio_at_the_central_pond_circumference_is_two_times_p_10.mp3",
+  "For composite grounds, add or subtract areas, but count only outer edges for perimeter.": "/assets/audio/audio_for_composite_grounds_add_or_subtract_areas_but__11.mp3",
+  "The blueprints are unrolled! Let’s enter the Site Lab to build our real-world park models.": "/assets/audio/audio_the_blueprints_are_unrolled_let_s_enter_the_site_12.mp3",
+  "Welcome to Section A, The Shape Shifter Lab! Drag the shear slider to shear the garden plot. Notice how the base and perpendicular height stay fixed, so the area remains completely unchanged!": "/assets/audio/audio_welcome_to_section_a_the_shape_shifter_lab_drag__13.mp3",
+  "Welcome to Section B, Fence and Fill! Use the width slider to size the park plot and match the target value. Watch the target ring turn green when you hit the exact target!": "/assets/audio/audio_welcome_to_section_b_fence_and_fill_use_the_widt_14.mp3",
+  "Welcome to Section C, Park Plan Builder! Tap each composite ground zone to add or subtract areas, then select only the outer boundary fence edges for the perimeter!": "/assets/audio/audio_welcome_to_section_c_park_plan_builder_tap_each__15.mp3",
+  "Congratulations on your survey across Sunrise Park! Let’s review the key conceptual principles and summarize your scorecard.": "/assets/audio/audio_congratulations_on_your_survey_across_sunrise_pa_16.mp3",
+  "Sunrise Park is officially open! You are now a Chief Park Architect!": "/assets/audio/audio_sunrise_park_is_officially_open_you_are_now_a_ch_17.mp3",
+  "Superb calculation! That plan is approved!": "/assets/audio/audio_superb_calculation_that_plan_is_approved_18.mp3",
+  "Spot on! That measurement is exact!": "/assets/audio/audio_spot_on_that_measurement_is_exact_19.mp3",
+  "Brilliant work, Planner! Another zone solved!": "/assets/audio/audio_brilliant_work_planner_another_zone_solved_20.mp3",
+  "Excellent geometry! You are mastering area and perimeter!": "/assets/audio/audio_excellent_geometry_you_are_mastering_area_and_pe_21.mp3",
+  "Close try! Remember to include units and verify each step carefully.": "/assets/audio/audio_close_try_remember_to_include_units_and_verify_e_22.mp3",
+  "Site Boss alert! The Master Surveyor has challenged your park measurements! Answer five questions with three lives to defend this zone!": "/assets/audio/audio_site_boss_alert_the_master_surveyor_has_challeng_23.mp3",
+  "Victory! You outsmarted The Master Surveyor and proved your mastery as a Certified Park Planner!": "/assets/audio/audio_victory_you_outsmarted_the_master_surveyor_and_p_24.mp3"
+};

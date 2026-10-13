@@ -1,0 +1,251 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: var(--bg-cosmic);
+  height: 100vh;
+  height: 100dvh;
+  max-height: 100dvh;
+  color: var(--color-text-light);
+  overflow: hidden;
+  font-family: Nunito, Inter, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.app-container {
+  background: var(--bg-cosmic);
+  flex-direction: column;
+  height: 100vh;
+  height: 100dvh;
+  max-height: 100dvh;
+  font-family: Nunito, sans-serif;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.app-container::before {
+  content: "";
+  background: var(--bg-cosmic-overlay);
+  pointer-events: none;
+  z-index: 1;
+  position: absolute;
+  inset: 0;
+}
+
+main.app-main {
+  padding-top: var(--header-h);
+}
+
+/* Screen and viewport fit guarantees - no scrolling */
+.card-max {
+  max-height: calc(100dvh - var(--header-h) - 16px);
+}
+
+.sim-card, .reflect-card {
+  max-height: calc(100dvh - var(--header-h) - 16px);
+}
+
+.text-main-heading {
+  font-family: "Fredoka One", Nunito, sans-serif;
+  font-size: var(--fs-main-heading);
+  color: var(--color-text-light);
+  margin: 0;
+  font-weight: 900;
+  line-height: 1.15;
+}
+
+.text-section-heading {
+  font-family: "Fredoka One", Nunito, sans-serif;
+  font-size: var(--fs-section-heading);
+  color: var(--color-text-light);
+  margin: 0;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.text-learning-objective {
+  font-family: "Fredoka One", Nunito, sans-serif;
+  font-size: var(--fs-learning-objective);
+  color: var(--color-text-light);
+  font-weight: 900;
+  line-height: 1.35;
+}
+
+.text-question {
+  font-family: "Fredoka One", Nunito, sans-serif;
+  font-size: var(--fs-question-text);
+  color: var(--color-text-light);
+  font-weight: 900;
+  line-height: 1.4;
+}
+
+.text-number {
+  font-family: "Fredoka One", Nunito, sans-serif;
+  font-size: var(--fs-important-numbers);
+  color: var(--color-gold);
+  font-variant-numeric: tabular-nums;
+  font-weight: 900;
+}
+
+.text-body {
+  font-size: var(--fs-body-text);
+  color: var(--color-text-muted);
+  font-weight: 700;
+  line-height: 1.55;
+}
+
+.text-caption {
+  font-size: var(--fs-caption);
+  color: var(--color-text-subtle);
+  font-weight: 700;
+}
+
+/* Glassmorphism styling */
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  border-radius: var(--radius-lg);
+}
+
+.glass-panel-strong {
+  background: var(--glass-bg-strong);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  border-radius: var(--radius-xl);
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: var(--radius-full);
+}
+
+/* Buttons */
+.gold-btn {
+  background: linear-gradient(135deg, #facc15 0%, #eab308 100%);
+  color: #1a0f4e;
+  font-family: "Fredoka One", Nunito, sans-serif;
+  font-size: var(--fs-button-text);
+  font-weight: 900;
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 14px rgba(250, 204, 21, 0.35);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  min-height: var(--tap-min);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  padding: 0.6rem 1.4rem;
+}
+
+.gold-btn:hover:not(:disabled) {
+  background: linear-gradient(135deg, #fef08a 0%, #facc15 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(250, 204, 21, 0.5);
+}
+
+.gold-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.gold-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  filter: grayscale(0.6);
+}
+
+.ghost-btn {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: var(--color-text-light);
+  font-family: "Fredoka One", Nunito, sans-serif;
+  font-size: var(--fs-button-text);
+  font-weight: 800;
+  border-radius: var(--radius-md);
+  transition: all 0.2s ease;
+  min-height: var(--tap-min);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+}
+
+.ghost-btn:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(3deg); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.05); }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
+}
+
+.floating-bg-item {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2.5s ease-in-out infinite;
+}
+
+.animate-shake {
+  animation: shake 0.4s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .floating-bg-item, .animate-pulse-glow, .animate-shake {
+    animation: none !important;
+  }
+}
+
+/* Custom Scrollbars where strictly required */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}

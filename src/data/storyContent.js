@@ -1,0 +1,62 @@
+export const STORY_PANELS = [
+  {
+    panel: 1,
+    id: 'fence-dilemma',
+    title: 'The Fence Dilemma',
+    concept: 'Same perimeter encloses different area',
+    character: 'tally',
+    characterName: 'Architect Tally',
+    characterEmoji: '🦉',
+    text: 'Welcome to Sunrise Park Studio! Junior planners Hafiz and Mei Ling received exactly 60 metres of fencing to build a new community lawn. Hafiz sketches a long 25 m by 5 m plot, while Mei Ling proposes a 15 m by 15 m square.',
+    highlight: 'Both plots use all 60 m of fence. But do they hold the same amount of grass?',
+    bubble: 'Before ordering turf or paving, remember: perimeter and area measure two entirely different things!',
+    image: '/assets/story/story_1.png',
+    imageEmoji: '🌾',
+    imageBg: 'from-amber-600/30 to-rose-600/30'
+  },
+  {
+    panel: 2,
+    id: 'around-vs-inside',
+    title: 'Around vs. Inside',
+    concept: 'Perimeter (boundary) vs Area (surface) & Units',
+    character: 'meiling',
+    characterName: 'Mei Ling',
+    characterEmoji: '👧',
+    text: 'Perimeter is the distance around a shape. Area is the flat surface space inside. Hafiz’s plot holds 25 × 5 = 125 square metres, while Mei Ling’s square encloses 15 × 15 = 225 square metres!',
+    highlight: 'Same 60 m fence, yet the square holds 100 extra square metres! Remember: 1 m² equals 10 000 cm².',
+    bubble: 'Perimeter is measured in metres, but area is measured in square metres. Never mix them up!',
+    image: '/assets/story/story_2.png',
+    imageEmoji: '🧱',
+    imageBg: 'from-orange-600/30 to-amber-600/30'
+  },
+  {
+    panel: 3,
+    id: 'halves-and-slants',
+    title: 'Halves, Slants & Slopes',
+    concept: 'Triangles, Parallelograms, and Perpendicular Height',
+    character: 'hafiz',
+    characterName: 'Hafiz',
+    characterEmoji: '👦',
+    text: 'For sloped terraces and triangular beds, perpendicular height is key! Splitting a rectangle along its diagonal proves a triangle’s area is one half times base times perpendicular height.',
+    highlight: 'For a parallelogram, area is base times perpendicular height. Never multiply by the slanted edge!',
+    bubble: 'Height must always meet the base at a right angle of ninety degrees, not slanted!',
+    image: '/assets/story/story_3.png',
+    imageEmoji: '📐',
+    imageBg: 'from-emerald-600/30 to-teal-600/30'
+  },
+  {
+    panel: 4,
+    id: 'curves-and-masterplan',
+    title: 'Curves, Pond & The Master Plan',
+    concept: 'Circles, Sectors, and Composite Park Grounds',
+    character: 'tally',
+    characterName: 'Architect Tally',
+    characterEmoji: '🦉',
+    text: 'At the central pond, circumference is two times pi times radius, and area is pi times radius squared. When fencing a semicircle or sector, always add the straight diameter or radius edges to the curved arc!',
+    highlight: 'For composite grounds, add or subtract areas, but count only outer edges for perimeter.',
+    bubble: 'The blueprints are unrolled! Let’s enter the Site Lab to build our real-world park models.',
+    image: '/assets/story/story_4.png',
+    imageEmoji: '⭕',
+    imageBg: 'from-sky-600/30 to-indigo-600/30'
+  }
+];

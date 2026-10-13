@@ -1,0 +1,30 @@
+# Dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# Production build outputs
+dist
+dist-ssr
+
+# Local environment & secret variables
+*.local
+.env.local
+.env.*.local
+
+# Reference files and raw archives
+ref_source
+*.zip
+.user_uploaded
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
